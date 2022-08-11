@@ -1,28 +1,28 @@
 {
     "os": {
         "id": "fs6400_42951",
-        "pat_url": "https://global.synology.com/download/DSM/release/7.1.1/42951/DSM_FS6400_42951.pat",
-        "sha256": "0e5e15398fb50d21ac52e0fbae199d5bacebc52f04933be5825c710f9de874ea"
+        "pat_url": "https://global.download.synology.com/download/DSM/release/7.1.1/42951/DSM_FS6400_42951.pat",
+        "sha256": "201bb710ed581433597b91f641c3808dce4281761fd63cf6742df954091a1a00"
     },
 
     "files": {
         "zlinux": {
             "name": "zImage",
-            "sha256": "cbed16da4970c41e9b9c6797c57c70b12f55ab497756cb050247d1c155c8a8f6"
+            "sha256": "494be701d33b44e3012c02923215cabff0adaa858c3caa384d5ebedb50502410"
         },
         "ramdisk": {
             "name": "rd.gz",
-            "sha256": "eebaf0236230956fc1a9d8ca8c8f86143da959b631cad9c311152a4e644d17a0"
+            "sha256": "6e30466395dedac4ab1913f3231cec39bae4de813e9d78c014c065e6f79e5f10"
         },
         "vmlinux": {
-            "sha256": "acfb85617db0fd238449118d0eb27ae51ea996d0ab1c98c303dcfb6bb85e801f"
+            "sha256": "c57b5d91f374c294d65bfdb4fcc5c696402560f2a01d6e1c87484805b331a96d"
         }
     },
 
     "patches": {
         "_comment": ".bsp patches are applied to FILES using bspatch(1); .patch are applied to DIRECTORIES using patch(1)",
         "zlinux": [
-            "zImage-001-FS6400-42218-ramdisk-and-header.bsp"
+            "zImage-001-FS6400-42951-ramdisk-and-header.bsp"
         ],
         "ramdisk": [
             "@@@COMMON@@@/ramdisk-001-disable-root-pwd.patch",

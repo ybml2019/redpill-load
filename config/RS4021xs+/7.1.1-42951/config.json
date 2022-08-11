@@ -1,28 +1,28 @@
 {
     "os": {
         "id": "rs4021xsp_42951",
-        "pat_url": "https://global.synology.com/download/DSM/release/7.1.1/42951/DSM_RS4021xs%2B_42951.pat",
-        "sha256": "30d1e57db3062e50275021c9550f650c54b9553c791b4d425634728f6b075040"
+        "pat_url": "https://global.download.synology.com/download/DSM/release/7.1.1/42951/DSM_RS4021xs%2B_42951.pat",
+        "sha256": "7c9e076f3007662f63e34fd478fc48f32dee766f1ddc712f25ae91a2e56e078c"
     },
 
     "files": {
         "zlinux": {
             "name": "zImage",
-            "sha256": "e76c6f4e885df659698c5cb2dbba4749797dfa066260f72b62bcea6c9a0ed8b9"
+            "sha256": "9134fc61aea7f687d62728470b8847e640693c444e0afd130882b728ab553fea"
         },
         "ramdisk": {
             "name": "rd.gz",
-            "sha256": "77d06a64e80e1b79af34a4b3df13de02b3ec76ec0864012bfb6e41e69ab9545c"
+            "sha256": "c4d23a068a66499c50c9772fc5c90cc38dfcba5c45dcab085eda5d07d720046b"
         },
         "vmlinux": {
-            "sha256": "8eecca448a6bea9a22e9488143212d610db560fe39c438929dd9c0ff49d37fc5"
+            "sha256": "8c14125209185788822d0725a7790344128b109be5a7d15d002e79ee514fdc61"
         }
     },
 
     "patches": {
         "_comment": ".bsp patches are applied to FILES using bspatch(1); .patch are applied to DIRECTORIES using patch(1)",
         "zlinux": [
-            "zImage-001-3622xs+-42951-ramdisk-and-header.bsp"
+            "zImage-001-RS4021xs+-42951-ramdisk-and-header.bsp"
         ],
         "ramdisk": [
             "@@@COMMON@@@/ramdisk-001-disable-root-pwd.patch",
