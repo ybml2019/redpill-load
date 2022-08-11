@@ -59,7 +59,7 @@
     },
 
     "menu_entries": {
-      "RedPill DS2422+ v7.0.1-42218 Jun mod (USB, Verbose)": {
+      "RedPill DS2422+ v7.1.1-42951 Jun mod (USB, Verbose)": {
         "options": [
           "savedefault",
           "set root=(hd0,2)",
@@ -75,7 +75,7 @@
           "log_buf_len": "32M"
         }
       },
-      "RedPill DS2422+ v7.0.1-42218 (USB, Verbose)": {
+      "RedPill DS2422+ v7.1.1-42951 (USB, Verbose)": {
         "options": [
           "savedefault",
           "set root=(hd0,msdos1)",
@@ -91,7 +91,7 @@
           "log_buf_len": "32M"
         }
       },
-      "RedPill DS2422+ v7.0.1-42218 (SATA, Verbose)": {
+      "RedPill DS2422+ v7.1.1-42951 (SATA, Verbose)": {
         "options": [
           "savedefault",
           "set root=(hd0,msdos1)",
