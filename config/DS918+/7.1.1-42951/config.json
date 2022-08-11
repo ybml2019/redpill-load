@@ -15,13 +15,13 @@
       "sha256": "0eb6433108d8ca1ac1c9b7bf5c35c54c1c0b400f4fcca2c5e95194494fc26686"
     },
     "vmlinux": {
-      "sha256": "41bc7364440a6e5da0e9740be743f0f9377de6957ca67d9287bf2672d030bcdb"
+      "sha256": "2446c39eb2dc6c05c9726f96e898f3df9689b93ceb2a9e6c7daa4e59c26a239e"
     }
   },
 
   "patches": {
     "zlinux": [
-      "zImage-001-918p-42661-ramdisk-and-flag-NOP.bsp"
+      "zImage-001-918p-42951-ramdisk-and-flag-NOP.bsp"
     ],
     "ramdisk": [
       "@@@COMMON@@@/ramdisk-001-disable-root-pwd.patch",

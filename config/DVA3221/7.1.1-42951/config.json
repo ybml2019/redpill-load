@@ -15,14 +15,14 @@
             "sha256": "491f8863b8a1ee36837dcb7e145f793ca840793d3da2c1e67ce8c5f4df096e80"
         },
         "vmlinux": {
-            "sha256": "08f4b398723e4164ffbdc65c614663c14f76ae8053649f36b5ccea6e976ea6be"
+            "sha256": "e181640e4cc23e17dddbe292107f4a3e3bd37d51dc1bec4b7383ef514bec3f1d"
         }
     },
 
     "patches": {
         "_comment": ".bsp patches are applied to FILES using bspatch(1); .patch are applied to DIRECTORIES using patch(1)",
         "zlinux": [
-            "zImage-001-dav3221-42661-ramdisk-and-header.bsp"
+            "zImage-001-dva3221-42951-ramdisk-and-header.bsp"
         ],
         "ramdisk": [
             "@@@COMMON@@@/ramdisk-001-disable-root-pwd.patch",
