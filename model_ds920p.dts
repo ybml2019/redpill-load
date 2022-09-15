@@ -197,8 +197,8 @@
 
 	internal_slot@8 {
 		protocol_type = "sata";
-		power_pin_gpio = <0x17 0x00>;
-		detect_pin_gpio = <0x26 0x01>;
+		power_pin_gpio = <0x21 0x00>;
+		detect_pin_gpio = <0x30 0x01>;
 		led_type = "lp3943";
 
 		ahci {
